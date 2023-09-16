@@ -9,7 +9,6 @@ def hcf(a,b):
         b = second
     while True:
         if a%b == 0:
-            print('hcf is '+ str(b))
             return(b)
         x = a%b
         a = b
